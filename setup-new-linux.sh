@@ -29,6 +29,7 @@ PKGS="git
 	libreoffice
 	spotify-client
 	python-pip
+	python3-pip
 	python-kivy
 	python-kivy-examples
 	xubuntu-restricted-extras"
