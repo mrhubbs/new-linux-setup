@@ -39,11 +39,14 @@ PKGS="git
 	inkscape
 	libreoffice
 	spotify-client
+	xubuntu-restricted-extras
+	usb-creator-gtk
+	brasero
 	python-pip
 	python3-pip
 	python-kivy
 	python-kivy-examples
-	xubuntu-restricted-extras"
+	python-sphinx"
 
 # ~ - ~ - ~ - ~ - ~ - ~ -
 # repos to add
@@ -107,5 +110,7 @@ apm install linter-flake8
 
 # other atom setup
 apm install minimap
+apm install project-manager
+apm install color-picker
 
 echo "$LOG_PREFIX SETUP IS COMPLETE!!!"
