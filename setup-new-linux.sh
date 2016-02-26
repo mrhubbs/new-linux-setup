@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # PLEASE NOTE: this script targets Xubuntu 64 bit.
 
@@ -36,6 +36,7 @@ function ppa_exists() {
 # ~ - ~ - ~ - ~ - ~ - ~ -
 
 PKGS="git
+	gedit
 	inkscape
 	libreoffice
 	spotify-client
@@ -112,5 +113,8 @@ apm install linter-flake8
 apm install minimap
 apm install project-manager
 apm install color-picker
+apm install language-arduino
+apm install language-lua
+apm install language-flatbuffers
 
 echo "$LOG_PREFIX SETUP IS COMPLETE!!!"
