@@ -47,7 +47,8 @@ PKGS="git
 	python3-pip
 	python-kivy
 	python-kivy-examples
-	python-sphinx"
+	python-sphinx
+	lessc"
 
 # ~ - ~ - ~ - ~ - ~ - ~ -
 # repos to add
@@ -110,9 +111,11 @@ sudo pip install flake8-docstrings
 apm install linter-flake8
 
 # other atom setup
+apm install auto-detect-indentation
 apm install minimap
 apm install project-manager
 apm install color-picker
+apm install sublime-style-column-selection
 apm install language-arduino
 apm install language-lua
 apm install language-flatbuffers
