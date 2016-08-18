@@ -38,6 +38,7 @@ function ppa_exists() {
 PKGS="git
 	gedit
 	inkscape
+	gpick
 	libreoffice
 	spotify-client
 	xubuntu-restricted-extras
@@ -112,12 +113,23 @@ apm install linter-flake8
 
 # other atom setup
 apm install auto-detect-indentation
+# Add to config.cson:
+# "file-types":
+#   jinja: "text.html.basic"
+apm install file-types
 apm install minimap
+apm install scratchpad
 apm install project-manager
-apm install color-picker
 apm install sublime-style-column-selection
+apm install atom-beautify
+apm install file-type-icons
+apm install git-plus
+# language support
 apm install language-arduino
 apm install language-lua
 apm install language-flatbuffers
+# specifically helpful for web development
+apm install color-picker
+apm install emmet
 
 echo "$LOG_PREFIX SETUP IS COMPLETE!!!"
