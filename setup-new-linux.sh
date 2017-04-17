@@ -38,18 +38,13 @@ function ppa_exists() {
 PKGS="git
 	gedit
 	inkscape
-	gpick
 	libreoffice
 	spotify-client
-	xubuntu-restricted-extras
+	ubuntu-restricted-extras
 	usb-creator-gtk
 	brasero
 	python-pip
-	python3-pip
-	python-kivy
-	python-kivy-examples
-	python-sphinx
-	lessc"
+	python3-pip"
 
 # ~ - ~ - ~ - ~ - ~ - ~ -
 # repos to add
@@ -128,6 +123,7 @@ apm install git-plus
 apm install language-arduino
 apm install language-lua
 apm install language-flatbuffers
+apm install language-capnp
 # specifically helpful for web development
 apm install color-picker
 apm install emmet
